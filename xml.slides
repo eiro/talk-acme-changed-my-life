@@ -1,0 +1,65 @@
+ xml editing with vim  
+
+  notes from slcon6 demo of xml editing in vim
+
+ please don't edit xml 
+
+   there are many good alternatives to xml outthere (yaml, json for simple
+    cases,  ...)
+   if you really target xml, please use template systems with
+    alternative/decent syntax because
+     easier to write and maintain
+     if you can get the xml out of your source, it's a valid one
+
+ pug 
+
+   my prefered syntax is ([pug](http://pugjs.org/)).
+   there is a implementation [in rust](https://crates.io/crates/pug) so
+     🤘 no need of millions of js files
+     🤘 ressource efficient
+     🤘 don't care about the first level of indentation
+     👎 buggy attributes support
+     👎 no "pretty print" option
+   [ident-object plugin](https://github.com/michaeljsmith/vim-indent-object)
+    really helps when editing pug files. Don't follow instructions in the readme
+    file: use pckages instead.
+    
+ moving and selecting 
+
+  enable matchit for % to switch from opening to closing tag
+  to select one or more nodes
+      vit
+      vat
+      vatatat
+
+ indenting 
+
+  indentation
+    in insert mode
+      <c-t> or to indent
+      <c-d> to indent
+    in normal mode
+      >{motion} or to indent
+      <{motion} to indent
+  auto-indentation
+    ={motion}
+
+ normal commands in a range 
+
+  you can use a normal command in command mode:
+
+  :%norm 4<<
+  :%norm =
+
+ ease edition with ! 
+
+  reformat an xml
+
+    %!xmlstarlet fo
+
+  write pug on fly with
+  [hident](https://github.com/eiro/p6-scripts/blob/master/vimx/hident)
+  and pug:
+
+    !!hident pug -P
+
