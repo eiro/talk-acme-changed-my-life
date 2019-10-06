@@ -23,6 +23,8 @@ slide by slide with PgUp/PgDown but it's not needed if you just want to
 reproduce the examples. edit the file and run the examples
 (tip: you can use "q:" instead of q so you can copy/paste commands).
 
+the `smart-columns` example needs the [smart-columns binary](https://github.com/eiro/p6-scripts/blob/master/haskell/smart-columns.hs). sorry about that.
+
 to test the [process manager example](kill.vim), you can link it as a package
 (`:h packages` for more informations).
 
