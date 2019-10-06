@@ -15,7 +15,7 @@ you can clone this repo from
 
     https://github.com/eiro/talk-acme-changed-my-life
 
-slides are [here](my.slides)
+slides are [here](my.slides). also the slides from the workshop i run with michael (editing xml/html with vim) are [here](xml.slides)
 
 you can install and learn about
 [slides.vim](https://github.com/eiro/slides.vim) to navigate
