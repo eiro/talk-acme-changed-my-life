@@ -1,0 +1,189 @@
+ acme changed my live  
+
+  19-10-04.slcon6
+  Burg Liebenzell
+  eiro 47 phear.org
+          freenode
+
+ don't hesitate  
+
+ glad to help
+  during the talk
+  during the conference
+  on IRC
+
+ acme   
+
+  *mouse* cording? no way ...
+  text is action: awesome
+
+ acme   
+
+
+  text is action: awesome 🤔
+
+ vim     
+
+
+  vim has pipes ! awesome 🤔
+
+ :h !     
+
+ formatting, spelling ...
+ sort, grep, sed, awk, fmt, ...
+
+
+ :h !     
+
+ {Visual}!{filter}
+ !{motion}{filter}
+ !!{filter}
+ :{range}![!]{filter}
+ {Visual}!{filter}
+
+ :{range}w !{filter}
+ :{range}w !!
+
+ {Visual}!{filter} 
+
+  vi    3
+  nvi   5
+  vim   14
+  nano ?
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  vap
+  !grep -v nano|sort -nk2
+
+ !{motion}{filter} 
+
+  |this long thing|wants to be|
+  |aligned|right?|             
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  !j
+  smart-columns \|
+
+ :h !     
+
+ 
+ sort, grep, sed, awk, fmt, ...
+ filters, right?
+ :h !     
+
+ 
+ sort, grep, sed, awk, fmt, ...
+ filters, right?
+
+ so are zsh, perl, sqlite, mutt, m4...
+
+ mutt  
+
+  To: sl
+  Subject: enjoy the conference
+
+  did i thank the organizers?
+  
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  :%!as phear;mutt -H-
+
+ sqlite3  
+
+ # !ap sqlite3 my.db
+
+ create table if not exists software (
+     name    TEXT,
+     website TEXT
+ );
+
+ # !!!
+
+ insert into software values ("vim","http://www.vim.org");
+
+ select * from software;
+
+
+ zsh 
+
+    thanks () print "thanks, $1"
+    for organizer ( laslo jan )
+      thanks $organizer
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  vip!zsh
+  v}!zsh
+  V!zsh
+  vj!zsh
+  !!zsh
+  !!!
+
+ :h =   
+
+ set ep=zsh
+ =ap
+
+    thanks () print "thanks, $1"
+    for organizer ( laslo jan )
+      thanks $organizer
+
+ :w ! 
+
+  :%w !wc
+
+ :r ! 
+
+  :10 !ls
+
+ navigating / filtering 
+
+   gf, gF, <c-w><[fF]>
+   v##d
+
+   grep -RFn puts # *this* line ...
+   dpkg -L 9base  # RTFMxUTSL
+
+ :h :make     
+
+ fibo.p6
+ :set aw mp=perl6\ %
+ :nnoremap ,x :make<cr>
+
+ :h ctags     
+
+ main ?
+ :!ctags -R
+ :tag main
+ ]
+
+ :h :quickfix     
+
+ :make
+ :cwindow 
+
+ :h :term     
+
+ :lcd ~/src/vendor/9base
+ :term make
+
+ repeat 3 { print WIP; sleep 1 }
+ :.term ++noclose
+
+ say hello     
+
+  fc or edit-command-line
+
+  autoload edit-command-line
+  zle -N edit-command-line
+  bindkey '^e'  edit-command-line
+	bindkey -M vicmd '^e'  edit-command-line
+
+ say goodbye     
+
+ :wq<cr>  ZZ
+ :q!<cr>  ZQ
+
+ demos     
+
+ wrapper to surfraw: no silver bullet
+ kill.vim
+
