@@ -155,6 +155,9 @@
  :tag main
  ]
 
+      rm tags
+      ctags --languages=+perl -R . $( perl -E 'say for grep -d, @INC' )
+
  :h :quickfix     
 
  :make
