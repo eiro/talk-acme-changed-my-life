@@ -63,7 +63,7 @@ so I can learn about the emacs way but I guess I will not switch anyway.
 
 [common-arguments-wrappers]: https://git.unistra.fr/mchantreux/shelpers/-/tree/main/common-arguments-wrappers
 
-## What other editors/IDE did have you tried
+## What other editors/IDE have you tried ?
 
 many. including the plan9 ones obviously. I really would like to know more about
 [vis] because [SRE] are awesome.
