@@ -40,8 +40,6 @@ marc
 
 # Most frequent feedbacks
 
-https://git.unistra.fr/mchantreux/shelpers/-/tree/main/common-arguments-wrappers
-
 ## Do you know Emacs ?
 
 Not enough to pretend I actually do: Emacs, like vim, is really powerfull
@@ -54,8 +52,16 @@ to a point it will be hard to any other editor to compete.
   just thin wrappers  (using `!motion` as filter, `:r!` or `:w !`) to shell commands
   I can reuse in other contexts (from my CLI or from larger scripts).
 
+As examples:
+
+* I wrote [common-arguments-wrappers] as a way to be more productive with vim but
+  now use them from the CLI as well.
+* I started using ctags with vim but this command is useful in other situations.
+
 However, I'll be more than happy to show my usecases to an experimented emacs user
 so I can learn about the emacs way but I guess I will not switch anyway.
+
+[common-arguments-wrappers]: https://git.unistra.fr/mchantreux/shelpers/-/tree/main/common-arguments-wrappers
 
 ## What other editors/IDE did have you tried
 
